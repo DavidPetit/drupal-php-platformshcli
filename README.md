@@ -9,7 +9,7 @@ To connect the cli to you platform.sh account, you only need to create a platfor
 For example, using docker-compose and arguments filled in a .env file, you can have something like this at the begining of the configuration for php container:
 ```
 php:
-    build: petitdavid/drupal-php-platformshcli:$PHP_TAG
+    image: petitdavid/drupal-php-platformshcli:$PHP_TAG
     container_name: "${PROJECT_NAME}_php"
     environment:
       PLATFORMSH_CLI_TOKEN: ${PLATFORMSH_CLI_TOKEN}
