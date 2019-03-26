@@ -2,7 +2,7 @@
 
 [DavidPetit/drupal-php-platformshcli](https://hub.docker.com/r/petitdavid/drupal-php-platformshcli) is a version of [wodby/drupal-php](https://github.com/wodby/drupal-php) image with Platform.sh CLI included.
 
-You can run platform.sh cli from the container based on this image and still inherit all the same goodness from [wodby/drupal-php](https://github.com/wodby/drupal-php).
+You can run platform.sh cli from the container based on this image and still inherit all the same goodness from [wodby/drupal-php](https://github.com/wodby/drupal-php) and part of the [docker4drupal](https://github.com/wodby/docker4drupal) stack.
 
 To connect the cli to your platform.sh account, you only need to create a platform.sh API token: https://docs.platform.sh/gettingstarted/cli/api-tokens.html and set an environemnt variable named PLATFORMSH_CLI_TOKEN with your token in order to be used by your php container.
 
