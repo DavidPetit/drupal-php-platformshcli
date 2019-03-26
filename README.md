@@ -1,4 +1,4 @@
-# Docker image wodby/drupal-php with Platform.sh CLI included
+# Docker image wodby/drupal-php with Platform.sh CLI
 
 [DavidPetit/drupal-php-platformshcli](https://hub.docker.com/r/petitdavid/drupal-php-platformshcli) is a version of [wodby/drupal-php](https://github.com/wodby/drupal-php) image with Platform.sh CLI included.
 
