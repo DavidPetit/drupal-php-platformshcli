@@ -2,6 +2,8 @@
 
 A version of wodby/drupal-php image with Platform.sh CLI included
 
+https://hub.docker.com/r/petitdavid/drupal-php-platformshcli
+
 You can run platform.sh cli from the container based on this image.
 
 To connect the cli to you platform.sh account, you only need to create a platform.sh API token: https://docs.platform.sh/gettingstarted/cli/api-tokens.html and set an environemnt variable named PLATFORMSH_CLI_TOKEN with your token in order to be used by your php container.
