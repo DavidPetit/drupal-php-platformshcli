@@ -1,4 +1,4 @@
-FROM wodby/drupal-php:7.3-dev-macos
+FROM wodby/drupal-php:7.3-dev
 
 RUN set -xe; \
 	curl --silent --show-error https://platform.sh/cli/installer | php\
